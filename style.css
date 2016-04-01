@@ -1,0 +1,337 @@
+/*
+Theme Name: Theme Onphpid
+Theme URI: http://onphpid.com/;
+Author: Onphpid
+Author URI: http://onphpid.com;
+Description: Cara Membuat Theme WordPress dengan Bootstrap
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: gnu.org/licenses/gpl-2.0.html
+Text Domain: theme-onphpid
+*/
+
+/* widget */
+
+.widget .widget-title {}
+
+.widget ul,
+.widget ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.widget ul li {
+    list-style: none;
+}
+
+.widget ul li a {}
+
+
+/* calendar widget */
+
+.widget_calendar {
+    float: left;
+}
+
+#wp-calendar {
+    width: 100%;
+}
+
+#wp-calendar caption {
+    text-align: right;
+    color: #333;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#wp-calendar thead {
+    font-size: 10px;
+}
+
+#wp-calendar thead th {
+    padding-bottom: 10px;
+}
+
+#wp-calendar tbody {
+    color: #aaa;
+}
+
+#wp-calendar tbody td {
+    background: #f5f5f5;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+#wp-calendar tbody td:hover {
+    background: #fff;
+}
+
+#wp-calendar tbody .pad {
+    background: none;
+}
+
+#wp-calendar tfoot #next {
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#wp-calendar tfoot #prev {
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+
+/* comment */
+
+#author,
+#email,
+#url {
+    background: #fff !important;
+    width: 230px;
+    color: #464646;
+    font-size: 12px;
+    padding: 8px 10px;
+    margin: 5px 5px 0 0;
+    border: 1px solid #d2d2d2
+}
+
+#comment {
+    background: #fff !important;
+    width: 96%;
+    height: 150px;
+    color: #464646;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 12px;
+    padding: 8px 10px;
+    margin: 5px 0 5px 0;
+    border: 1px solid #d2d2d2
+}
+
+.comment-list,
+.children {
+    margin: 0;
+    padding: 0
+}
+
+.ping-list {
+    margin: 0 0 40px 0;
+    padding: 0
+}
+
+.comment-list ol,
+.ping-list ol {
+    margin: 0;
+    padding: 10px;
+    max-width: 550px
+}
+
+.comment-list li,
+.ping-list li {
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    padding: 10px 0px;
+    list-style: none;
+    border-bottom: 0px solid #d2d2d2;
+    position: relative
+}
+
+.comment-list li ul li {
+    margin-left: 40px;
+    margin-top: 20px
+}
+
+.comment-list li ul li #respond {
+    margin-left: -40px !important;
+    margin-top: 20px
+}
+
+.comment-list li ul li li #respond {
+    margin-left: -80px !important
+}
+
+.comment-list p,
+.ping-list p {
+    font-weight: normal;
+    text-transform: none;
+    margin: 10px 5px 10px 0;
+    padding: 0
+}
+
+.comment-list li .avatar {
+    background: #FFF;
+    float: left;
+    margin: 0 10px 0 0px;
+    border-radius: 50%;
+    -moz-border-radius: 50%
+}
+
+.comment-list cite,
+.comment-list cite a,
+.ping-list cite,
+.ping-list cite a {
+    font-weight: bold;
+    font-style: normal
+}
+
+#respond:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.nocomments {
+    text-align: center
+}
+
+#comments .navigation {
+    display: block;
+    margin: 10px 0 0 0
+}
+
+#comments h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 0 0 10px !important
+}
+
+.comment-content {
+    border: 1px solid #d2d2d2;
+    padding: 10px 20px 25px;
+    margin: 20px 0 0
+}
+
+.comment-list li .fn,
+.comment-list li .cfn {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px
+}
+
+.comment-list li .says {
+    display: none
+}
+
+.comment-list li .commentmetadata {
+    font-weight: normal;
+    font-size: 13px;
+    font-style: italic;
+    padding: 5px 0 0 !important
+}
+
+.comment-list li .commentmetadata a {
+    color: #999
+}
+
+.comment-list li .reply {
+    right: 1px;
+    position: absolute;
+    margin-top: -32px;
+    background: #eee;
+    padding: 5px 10px
+}
+
+.depth-4 .reply {
+    display: none !important
+}
+
+.commentfields-left {
+    float: left;
+    width: 290px;
+    margin: -10px 0 0 !important
+}
+
+#alt-login-methods {
+    float: right;
+    margin: 5px 30px 0 0
+}
+
+.divider {
+    width: 50px;
+    height: 90px;
+    margin: -100px 0 0 280px;
+    float: left
+}
+
+.commentpolicy {
+    margin: 30px 0 !important
+}
+
+.reply a,
+.reply a:visited {
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+    font-weight: normal
+}
+
+.reply a:hover,
+#cancel-comment-reply-link a:hover {
+    color: #464646;
+    font-weight: bold
+}
+
+h3#reply-title {
+    text-transform: uppercase;
+    line-height: 26px;
+    padding: 0px !important;
+    margin: 0px !important
+}
+
+#cancel-comment-reply-link {
+    font-size: 11px
+}
+
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase
+}
+.entry p > img,
+.entry img {
+    width: 100%;
+}
+
+img.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+img.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.posts-navigations {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #d2d2d2;
+}
