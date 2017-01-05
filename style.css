@@ -195,7 +195,10 @@ a img.aligncenter {
     content: '';
 }
 
-
+// handle ketika user login
+.logged-in.admin-bar > .navbar {
+    margin-top: 32px;
+}
 /* widget
  ========================= */
 
